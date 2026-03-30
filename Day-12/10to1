@@ -1,0 +1,7 @@
+def display(n):
+    if n>10:
+        return
+    display(n+1)
+    print(n)
+    
+display(1)
