@@ -1,0 +1,11 @@
+def fun(l):
+    for i in range(len(l)):
+        l[i]=l[i].title()
+        return l
+
+l=["prudhvi","sudheer","aditya","bhuvan","tarun"]
+
+res = list(map(lambda i:i.title(),l))
+
+print(fun(l))
+print(res)

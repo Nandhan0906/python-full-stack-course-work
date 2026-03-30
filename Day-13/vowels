@@ -1,0 +1,11 @@
+def isvowel(a):
+    if a in vol:
+        return "vol"
+    else:
+        return "Con"
+
+isvowel1 = lambda a: "Vol" if a in vol else "Con"
+
+vol='aeiouAEIOU'
+print(isvowel('a'))
+print(isvowel1('k'))

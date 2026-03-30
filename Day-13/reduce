@@ -1,0 +1,16 @@
+l={'laptop':True,
+   'iphone':False,
+   'mouse':True,
+   'tablet':False,
+   'charger':True
+}
+
+from functools import reduce
+
+l=['python','java','c++','c','html','reactjs']
+
+res = reduce(lambda a,b:a+' '+b,l)
+
+print(res)
+
+ 

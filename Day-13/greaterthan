@@ -1,0 +1,10 @@
+def greater(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+
+greater1 = lambda a,b:a if a>b else b
+
+print(greater(19,9))
+print(greater1(18,2))

@@ -1,0 +1,7 @@
+def wish(name):
+    return f'hello {name}, welcome to python'
+
+wishl=lambda name: f'hello {name}, welcome to python'
+
+print(wish("prudhvi"))
+print(wish("nandhan"))
