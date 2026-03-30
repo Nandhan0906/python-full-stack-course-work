@@ -1,0 +1,12 @@
+def display():
+    yield"pfs=41"
+    yield"pfs=48"
+    yield"pfs=51"
+    yield"pfs=49"
+    yield"pfs=56"
+    yield"pfs=69"
+
+leave=display()
+
+for i in range(7):
+    print(next(leave))

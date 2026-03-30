@@ -1,0 +1,6 @@
+s='python programming'
+
+vol='aeiouAEIOU'
+
+l=['*' if i in  vol else i for i in s]
+print(l)

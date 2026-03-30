@@ -1,0 +1,13 @@
+def reels():
+    r=['l..100','101..200','201..300','301..400','401..500','501..600']
+    for i in r:
+        yield i
+
+scroll = reels()
+
+print(next(scroll))
+print(next(scroll))
+print(next(scroll))
+print(next(scroll))
+print(next(scroll))
+print(next(scroll))
